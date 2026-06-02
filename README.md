@@ -92,9 +92,9 @@ pip install torch wfdb scikit-learn scipy numpy matplotlib seaborn tqdm
 
 ### Run
 
-1. **Preprocess** — run `preprocess.ipynb` end-to-end. This downloads the MIT-BIH database (~100 MB) and writes `data/beats.npz`.
+1. **Preprocess** : run `preprocess.ipynb` end-to-end. This downloads the MIT-BIH database (~100 MB) and writes `data/beats.npz`.
 
-2. **Train** — run `train.ipynb` end-to-end. This trains the model and saves weights to `data/ecg_lstm.pt`.
+2. **Train** : run `train.ipynb` end-to-end. This trains the model and saves weights to `data/ecg_lstm.pt`.
 
 If `data/beats.npz` already exists you can skip step 1 and go straight to training.
 
