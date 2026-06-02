@@ -19,7 +19,7 @@ This project preprocesses raw ECG recordings, extracts individual heartbeat segm
 
 ## Dataset
 
-**MIT-BIH Arrhythmia Database** — 48 two-channel ECG recordings sampled at 360 Hz, downloaded automatically via the `wfdb` library.
+**MIT-BIH Arrhythmia Database** : 48 two-channel ECG recordings sampled at 360 Hz, downloaded automatically via the `wfdb` library.
 
 After preprocessing, the dataset contains **112,561 labeled beats**:
 
